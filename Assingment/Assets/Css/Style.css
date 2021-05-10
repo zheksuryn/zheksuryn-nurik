@@ -1,0 +1,422 @@
+.navbar-default {
+    background-color: #004d33;
+    border-color: #ffffff;
+}
+/* цвет текста, содержащий название сайта или бренда */
+.navbar-default .navbar-brand {
+    color: rgb(255, 255, 255);
+}
+/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* Цвет пунктов навигационного меню */
+.navbar-default .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+/* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(206, 38, 38);
+}
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+/* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: rgb(0, 0, 0);
+}
+/* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* CSS стили для мобильных устройств */
+/* Цвет рамки у кнопки, которая открывает меню */
+.navbar-default .navbar-toggle {
+    border-color: rgb(255, 255, 255);
+}
+/* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgb(255, 255, 255);
+}
+/* Цвет полосочек в кнопочке, которая открывает меню */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 767px) {
+/* Цвет пунктов меню в раскрывающихся списках */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+/* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+}
+
+body{
+    background-color: #008055;
+}
+.intro{
+  width: 100%;
+  height: 100vh;
+  background: url("https://i1.wp.com/wallpapersfortech.com/wp-content/uploads/2021/01/Cyber-Wallpaper-4k.png?fit=5120%2C2160&ssl=1");
+  background-size: cover;
+}
+
+.space{
+    margin-top: 120px;
+}
+
+.carousel-inner img{
+
+    margin: auto;
+    height: 50%;
+    width: 50;
+}
+
+.recommend_header{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+.recommend_header h1{
+    margin-top: 50px;
+    margin-left:160px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size:200%;
+    font-weight: 500;
+    vertical-align: baseline;
+    background: 0 0;
+    text-decoration: none;
+}
+
+.film_block{
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.container1,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+}
+
+
+.Poster_name{
+    width: 234px;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #003322;
+    padding:40px 0;
+    color: white;
+}
+
+.footer-left a{
+    color: white;
+    margin-right: 20px;
+    font-size: 15px;
+
+
+}
+
+.footer-right a{
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.text_content{
+    margin: 20px 160px;
+    color: white;
+}
+
+.film_content{
+    margin-top: 120px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding: 15px;
+    border-radius: 20px
+    color: white;
+    text-align: center;
+    float: left;
+    height: 1400px;
+}
+
+.info_film_page {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.info_film_page .label {
+	font-size: 1.2em;
+}
+
+.info_film_page .value {
+	font-size: 1em;
+	color: #ccccff;
+	margin-right: 3%;
+}
+
+.description_film {
+  text-align: left;
+	margin-bottom: 5%;
+  color: #ccccff;
+}
+
+.description_film img {
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+}
+
+.reviews {
+	margin-bottom: 4%;
+	font-size: 0.9em;
+
+}
+
+.reviews .review_name {
+	background-color: #004d34;
+	color: white;
+	padding: 1%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.reviews .review_text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+  border-color: white;
+}
+
+hr{
+    background-color: white;
+}
+
+.main{
+    margin: 0 160px;
+    border-width: 2px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+.chip {
+    float: left;
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #008055;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+.koguvcavis-varazdel {
+  padding: 38px 0;
+  background: #004d33;
+  color: #2f2f2f;
+  text-align: center;
+}
+.sestim-donials{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.sectionesag {
+  width: 90%;
+  height: 3px;
+  background: #e6fff7;
+  margin: 23px auto;
+}
+
+.sagestim-lonials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.vemotau-vokusipol{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial {
+  background: #f9f4f4;
+  padding: 28px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.gecedanam{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.apogered-gselected{
+  color: #53b32b;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.vemotau-vokusipol{
+  flex: 100%;
+  max-width: 100%;
+}
+}
+
+.video{
+  width: 80%;
+  height: 80vh;
+}
+.img{
+  width: 40%;
+  height: 80vh;
+}
+
+.scale {
+   transition: 1s;
+   width: 10%;
+   height: 10%;
+   margin: 0 30px;
+   }
+
+ .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
